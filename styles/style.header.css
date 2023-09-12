@@ -1,0 +1,43 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.header-wrapper .header-logo {
+  padding-left: 20px;
+  width: 128px;
+  height: 31px;
+  flex-grow: 1;
+  float: left;
+  cursor: pointer;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.meni-list_item a {
+  transition: all 0.2s;
+}
+.meni-list_item a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.menu-button {
+  margin: 0 20px 0 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 42px;
+  background-color: #fff;
+  color: black;
+  border: #fff;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}

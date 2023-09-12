@@ -1,0 +1,131 @@
+@import url("./style.min.css");
+@import url("./style.header.css");
+@import url("./style.main.css");
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #fff;
+}
+.h2-normal {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+}
+.h3-left {
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.h3-subtitle {
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.text-normal {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.a-normal {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.text-button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+}
+.button:hover {
+  box-shadow: 0px 10px 15px #565656;
+}
+.section-button {
+  min-width: 143px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 14px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+.section-button span {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: black;
+}
+.photo-page {
+  padding-right: 20px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
+  .product-list {
+    grid-template-columns: repeat(2, 480px);
+  }
+
+  .product-list_item {
+    width: 480px;
+    height: 450px;
+  }
+  .tools-photo {
+    padding-right: 20px;
+  }
+  .clients-list {
+    gap: 68px;
+  }
+  footer {
+    padding: 100px 20px 104px 20px;
+  }
+  .introduce-social_info {
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    width: 760px;
+  }
+}
+@media (max-width: 480px) {
+}
